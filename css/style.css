@@ -1,0 +1,57 @@
+body{
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    color: gray;
+}
+
+#container{
+    grid-column: 2 / 2;
+}
+
+h1{
+    color: red;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#divTim{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#timPhoto{
+    border-radius: 50% 50%;
+}
+
+.forme{
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+}
+
+.movies{
+    display: flex;
+    margin-top: 1em;
+}
+
+.favoriteMoviesText{
+    padding: 1em;
+}
+/* graph QL + reset */
